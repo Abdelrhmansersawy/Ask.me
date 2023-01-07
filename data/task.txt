@@ -1,0 +1,13 @@
+Configure :
+    - make Header "configure.h" , Cpp File "configure.cpp"
+        - Class 
+            - Private : string All Users , All Question
+            - Public :
+                - int add_question(string from . string to , string answer , bool show_name);
+                    - return new id , create new file of question with these parameters
+                - void add_user(string name)
+                - update()
+                    - after any added_question or user , must update data 
+                - void remove Question(int id);
+                    - remove id from question and remove file 
+Question :
