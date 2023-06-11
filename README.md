@@ -1,6 +1,6 @@
 # Ask.me
 Console app simulates the idea of ask.fm website
-## Big Picture:
+## Big Picture
 People ask questions and others answers them
 ## Features
 - Every time the user run it, you see the previous state (users/questions/answers).
