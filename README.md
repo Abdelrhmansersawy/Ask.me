@@ -14,4 +14,5 @@ People ask questions and others answers them
 -  Print questions: From you, To you, Feed Questions.
 -  Ask and answer questions. System support threads.
 -  Delete a question (which might be a thread).
-## Short
+## Video explaining the project
+[Screencast from 11 يون, 2023 EEST 08:02:36 م.webm](https://github.com/Abdelrhmansersawy/Ask.me/assets/65075626/4b705ac4-9267-4d0e-928a-cb1db69426e7)
