@@ -52,7 +52,7 @@ void user::login(string pass){
 	string path = get_path(user_name);
 	ifstream fin(path.c_str() , ios::in);
 	if(fin.fail()){
-		cout << "Invalid Username please try again \n";
+		cout << "Invalid Username/Password please try again \n";
 		write();
 		return;
 	}
@@ -66,7 +66,7 @@ void user::login(string pass){
 	getline(fin , send_questions);
 	getline(fin , receive_questions);
 	if(pass != password){
-		cout << "Invalid password please try again \n";
+		cout << "Invalid Username/Password please try again \n";
 		write();
 		return;
 	}
@@ -118,7 +118,23 @@ bool user::find_received_question(int id){
 	}
 	return false;
 }
+void user::update_info(){
+	string path = get_path(user_name);
+	ifstream fin(path.c_str());
+	if(fin.fail())return;
+	getline(fin , user_name);
+	getline(fin , password);
+	getline(fin , name);
+	getline(fin , email);
+	string test;
+	getline(fin , test);
+	(test == "1") ? allow_anonymous = 1 : allow_anonymous = 0;
+	getline(fin , send_questions);
+	getline(fin , receive_questions);
+	fin.close();
+}
 vector<int> user::get_send_questions(){
+	update_info();
 	stringstream ss(send_questions);
 	int id;
 	vector<int> v;
@@ -128,6 +144,7 @@ vector<int> user::get_send_questions(){
 	return v;
 }
 vector<int> user::get_receive_question(){
+	update_info();
 	stringstream ss(receive_questions);
 	int id;
 	vector<int> v;

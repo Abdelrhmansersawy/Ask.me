@@ -25,6 +25,7 @@ class user{
 		bool find_received_question(int);
 		void update();
 		void reset();
+		void update_info();
 		vector<int> get_send_questions();
 		vector<int> get_receive_question();
 };
