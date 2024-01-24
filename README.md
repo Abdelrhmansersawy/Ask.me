@@ -14,5 +14,5 @@ Console app simulates the idea of ask.fm where people ask questions and others a
 -  Ask and answer questions. System support threads.
 -  Delete a question (which might be a thread).
 ## Video explaining the project
-[Demo Video](ScreenShots\demo.mp4)
+![Demo Video](ScreenShots\demo.mp4)
 
