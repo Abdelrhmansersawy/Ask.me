@@ -13,6 +13,6 @@ Console app simulates the idea of ask.fm where people ask questions and others a
 -  Print questions: From you, To you, Feed Questions.
 -  Ask and answer questions. System support threads.
 -  Delete a question (which might be a thread).
-## Video explaining the project
-![Demo Video](ScreenShots\demo.mp4)
+## Demo Video
+[Demo Video](https://drive.google.com/file/d/1aeuVgwZ4Q5zGDXY5mHbsuP1OvJuC-7N8/view?usp=sharing)
 
