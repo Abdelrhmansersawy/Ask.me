@@ -1,7 +1,6 @@
 # Ask.me
-Console app simulates the idea of ask.fm website
-## Big Picture
-People ask questions and others answers them
+Console app simulates the idea of ask.fm where people ask questions and others answers **them**.
+
 ## Features
 - Every time the user run it, you see the previous state (users/questions/answers).
 - Multiple users can use it in same time parallel
@@ -15,4 +14,5 @@ People ask questions and others answers them
 -  Ask and answer questions. System support threads.
 -  Delete a question (which might be a thread).
 ## Video explaining the project
-[Screencast from 11 يون, 2023 EEST 08:02:36 م.webm](https://github.com/Abdelrhmansersawy/Ask.me/assets/65075626/4b705ac4-9267-4d0e-928a-cb1db69426e7)
+[Demo Video](ScreenShots\demo.mp4)
+
